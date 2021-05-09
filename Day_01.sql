@@ -237,7 +237,7 @@ SET @myvar = @myvar * 10
 -- Retrieve that variable
 SELECT @myvar AS myVariable
 
-
+go
 DECLARE @myvar as numeric(7,2) -- or decimal(7,2) - 5 bytes needed
 
 -- 12345.67 is valid for the above.
